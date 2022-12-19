@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: auto;
+    margin: auto;
+}
+header {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/images/wallpaper.jpg");
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:Courier;
+    font-size: 14px;
+}
+.nav-area li a:hover{
+    background: #ffffff;
+    color: #333;
+}
+.welcome {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.welcome h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.welcome p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.loginform {
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.loginform h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.loginform p {
+    font-size: 20px;
+    margin: 15px 0;
+
+}
+
+.loginform input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.loginform button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    width: 50%;
+    border-radius: 5px;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pcbuildform p {
+    color: white;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.submitbuild {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-primary {
+    align-items:  flex-end;
+    color: black;
+}
+
+.submitbutton{
+    background: blue;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+}
+
+.pcbuildwel{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.pcbuildwel h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.pcbuildwel p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.welcome{
+
+}
+
+.list-group{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+
+.checkout{
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white
+}
+
+.labels{
+
+}
+
+.dropdown{
+    height:200px;
+    font-size:14pt;
+}
