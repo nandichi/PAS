@@ -32,4 +32,3 @@ if ($query->rowCount() == 1 ) {
     $_SESSION['melding'] = 'combinatie gebruikersnaam en wachtwoord onjuist.';
     header('location: ../index.php?page=login');
 }
-

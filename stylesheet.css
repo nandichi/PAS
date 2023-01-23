@@ -60,6 +60,7 @@ header {
     transform: translate(-50%, -50%);
     position: absolute;
     color: #fff;
+    padding: 10px;
 }
 
 .loginform h1 {

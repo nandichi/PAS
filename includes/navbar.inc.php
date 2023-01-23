@@ -8,6 +8,8 @@
         <?php
         if (in_array("username", $_SESSION)) {
             echo "<li><a href='index.php?page=pakket'>pakketten</a> </li>";
+            echo "<li><a href='index.php?page=verzenden'>verzenden</a> </li>";
+            echo "<li><a href='index.php?page=tracking'>tracking</a> </li>";
             echo "<li><a href='index.php?page=logout'>logout</a> </li>";
 
 
