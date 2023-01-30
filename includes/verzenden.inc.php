@@ -1,7 +1,3 @@
-<?php
-
-
-?>
 
 <div class="loginform">
     <h1>Verzend pakket</h1>
